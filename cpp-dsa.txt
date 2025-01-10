@@ -1,0 +1,41 @@
+ch01-lists-stacks-queues
+  	 days 2
+	horas 1 1
+
+ch02-trees-heap-graphs
+	days 30dic
+   horas 1
+
+ch03-hash-tables-bloom-filters
+	days 31dic
+   horas 1
+
+ch04-divide-and-conquer
+	days 02ene
+   horas 2
+
+   // error: no known conversion for argument 1 from '__gnu_cxx::__normal_iterator<int*, std::vector<int> >' to '__gnu_cxx::__normal_iterator<int*, std::vector<int> >::difference_type' {aka 'long long int'}
+
+   // error in code, cannot add pointers!!!
+   // line 30    auto mid_element_index = fisrt + std::floor(range_length / 2);
+		
+
+ch05-greedy-algorithms
+	days 02ene
+   horas  3
+
+ch06-graph-algorithms1
+	days 03ene
+   horas  2
+
+ch07-graph-algorithms2
+	days 04ene
+   horas  3
+
+ch08-dynamic-programming1
+	days 01ene
+   horas 
+
+ch09-dynamic-programming1
+	days 01ene
+   horas 
