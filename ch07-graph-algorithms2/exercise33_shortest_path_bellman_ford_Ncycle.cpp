@@ -1,15 +1,8 @@
-// g++ -std=c++17 exercise32_shortest_path_bellman_ford.cpp -o exercise32_shortest_path_bellman_ford.exe
-// exercise32_shortest_path_bellman_ford.exe
+// g++ -std=c++17 exercise33_shortest_path_bellman_ford_Ncycle.cpp -o exercise33_shortest_path_bellman_ford_Ncycle.exe
+// exercise33_shortest_path_bellman_ford_Ncycle.exe
 
 /*
-We can use the Bellman-Ford algorithm to handle graphs with negative weights. It
-replaces Dijkstra's method of greedy selection with an alternative approach of iterating
-across every edge in the graph V – 1 times (where V is equal to the total number of
-vertices) and finding progressively optimal distance values from the source node across
-each iteration. Naturally, this gives it a higher asymptotic complexity than Dijkstra's
-algorithm, but it also allows it to produce correct results for graphs that Dijkstra's
-algorithm would misinterpret. The following exercise shows how to implement the
-Bellman-Ford algorithm.
+Implementing the Bellman-Ford Algorithm (Part I), to deal with a graph with negative weight cycles.
 */
 
 #include <iostream>
@@ -36,6 +29,7 @@ int start;
 
 void BellmanFord(int start);
 void initSample();
+void initSampleNcycle();
 
 int main()
 {
@@ -55,7 +49,8 @@ int main()
 	cin >> start;
 	*/
 
-	initSample();
+	//initSample();
+	initSampleNcycle();
 
 	// Run the Bellman-Ford algorithm on the graph for
 	// the chosen starting vertex
@@ -63,6 +58,23 @@ int main()
 	
 	return 0;
 }
+
+void initSampleNcycle() {
+
+	V = 6;
+	E = 8;
+
+	int node_a[] = {0, 1, 2, 2, 3, 2, 4, 5};
+	int node_b[] = {1, 3, 1, 5, 2, 4, 5, 1};
+	int weight[] = {3,-8, 3, 5, 3, 2,-1, 8};
+
+	for (int i = 0; i < E; i++) {
+		edges.push_back(new Edge(node_a[i], node_b[i], weight[i]));
+	}
+
+	start = 0;
+}
+
 
 void initSample() {
 
@@ -108,6 +120,24 @@ void BellmanFord(int start)
 			{
 				distance[v] = distance[u] + w;
 			}
+		}
+	}
+
+	for(auto edge : edges)
+	{
+		int u = edge->start;
+		int v = edge->end;
+		int w = edge->weight;
+
+		if(distance[u] == UNKNOWN)
+		{
+			continue;
+		}
+	
+		if(distance[u] + w < distance[v])
+		{
+			cout << "NEGATIVE CYCLE FOUND" << endl;
+			return;
 		}
 	}
 
