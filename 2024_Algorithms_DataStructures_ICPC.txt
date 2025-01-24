@@ -1,0 +1,76 @@
+C++ Data Structures and Algorithm Design Principles ----------------------------------------------------
+	https://subscription.packtpub.com/book/programming/9781838828844/pref01
+	tree, graph, divide and conquer, greedy, graphs, dynamic programming
+
+Beginning Java Data Structures and Algorithms ----------------------------------------------------------
+	https://subscription.packtpub.com/book/programming/9781789537178/pref
+	Greedy, Divide-Conquer, Dynamic Programming, String Matching,  Graph, Prime Numbers
+
+Advanced Data Structures and Algorithms in Python [Video]-----------------------------------------------
+	https://subscription.packtpub.com/video/programming/9781838643157/p1/video1_1/the-course-overview
+	recursive, dynamic programming, advances DP, tree, Graph
+
+50 Algorithms Every Programmer Should Know - Second Edition ---------------------------------------------
+	https://subscription.packtpub.com/book/programming/9781803247762/pref
+	Graph, design, Learning, NN, Cripoto, sequential models, 
+
+Learning JavaScript Data Structures and Algorithms - Fourth Edition ------------------------------------
+	https://subscription.packtpub.com/book/programming/9781836205395/1
+	tree, graph, math, algorithm design
+
+Efficient Algorithm Design -----------------------------------------------------------------------------
+	https://subscription.packtpub.com/book/programming/9781835886823/pref
+	recurrence, deep dive algo, soet, search, dynamic programing, 
+
+Introduction to Data Structures & Algorithms in Java [Video]------------------------------------------
+	https://subscription.packtpub.com/video/programming/9781788628648/28649/28659/introduction
+	recursion, trees
+
+From 0 to 1: Data Structures & Algorithms in Java [Video] --------------------------------------------
+	https://subscription.packtpub.com/video/programming/9781788626767/34182/34201/you-this-course-and-us
+	tree, graph, shortest path
+
+PHP 7 Data Structures and Algorithms ------------------------------------------------------------------
+	https://subscription.packtpub.com/book/programming/9781786463890/pref
+	r3ecursion, graph
+
+Hands-On Data Structures and Algorithms with Rust -----------------------------------------------------
+	https://subscription.packtpub.com/book/programming/9781788995528/pref
+	random, combinatorial
+
+
+Expert Python Programming - Third Edition
+https://subscription.packtpub.com/book/programming/9781789808896/pref
+
+Extending and Modifying LAMMPS Writing Your Own Source Code
+https://subscription.packtpub.com/book/programming/9781789808896/pref
+
+SAP ABAP Advanced Cookbook
+https://subscription.packtpub.com/book/data/9781849684880/pref05
+
+Time Series with PyTorch
+By : Graeme Davidson, Lei Ma
+https://subscription.packtpub.com/book/data/9781805128182/1
+
+Django 5 By Example - Fifth Edition
+https://subscription.packtpub.com/book/web-development/9781805125457/pref
+
+
+Practical Generative AI with ChatGPT - Second Edition
+https://subscription.packtpub.com/book/data/9781836647850/1
+
+LLM Engineer's Handbook
+By : Paul Iusztin, Maxime Labonne
+https://subscription.packtpub.com/book/data/9781836200079/pref
+
+AI Product Manager's Handbook - Second Edition
+https://subscription.packtpub.com/book/data/9781835882849/pref
+
+
+https://subscription.packtpub.com/book/game-development/9781803234670/pref
+Book Image
+Coding Roblox Games Made Easy, Second Edition - Second Edition
+
+
+
+	
